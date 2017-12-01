@@ -17,12 +17,29 @@ print("Recupération des données d'entrainement terminé.\nRecupération des do
 donnesAReconnaitre = lectureDonnneesTuple("test")
 print("Recupération des données d'evaluation terminé.\n")
 
+print("*************************************************************************")
+print("Classifieur à distance minimum sans ACP.")
+start_time = timeit.default_timer()
+print("Création des images moyennes de chaque groupe.")
+dictDonnees = tupleDonnneesToDictList(donnees)
+averageImagesDict = createAverageImages(dictDonnees)
+print("Création des images moyennes de chaque groupe terminé.\n")
+tempsPreparation = timeit.default_timer() - start_time
+
+
+print("Commencement de la reconnaissance.")
+confusionMatriceWithoutACP = makeAllGuess(donnesAReconnaitre, averageImagesDict, 'SansACP', tempsPreparation)
+print("Reconnaissance terminé. Deux fichiers contenant les résultats et la matrice de confusion ont été créé.\n")
+
+
+
 tabImages = getJustImages("training")
 
 for i in range(4, 28+1, 2):
 	start_time = timeit.default_timer()
 	print("*************************************************************************")
-	print("Creation de la matrice de reduction à partir des donnees d'entrainement : parametre de dimension est :" + str(i*i) + ".")
+	print("Classifieur à distance minimum avec ACP avec comme parametre de dimension " + str(i*i) + ".")
+	print("Creation de la matrice de reduction à partir des donnees d'entrainement.")
 	pca = PCA(i*i , True)
 	pca.fit(tabImages)
 	print("Matrice créée.\n")
@@ -45,13 +62,13 @@ for i in range(4, 28+1, 2):
 	tempsPreparation = timeit.default_timer() - start_time
 	
 	print("Commencement de la reconnaissance.")
-	allConfusionMatrices.append(makeAllGuess(donnesAReconnaitreTransforme, averageImagesDict, str(i*i), tempsPreparation))
+	allConfusionMatrices.append(makeAllGuess(donnesAReconnaitreTransforme, averageImagesDict, 'ACP' + str(i*i), tempsPreparation))
 	print("Reconnaissance terminé. Deux fichiers contenant les résultats et la matrice de confusion ont été créé.\n")
 
 print("*************************************************************************")
 print("Toutes les reconnaissances sont terminé : affichage des données sous forme de graphe.")
 	
-examineAllMatrices(allConfusionMatrices)
+examineAllMatrices(allConfusionMatrices, confusionMatriceWithoutACP)
 
 #afiche les averageImage de chaque classe
 '''

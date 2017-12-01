@@ -238,16 +238,27 @@ def write_in_file(string, fileName):
 	file_pointer.close()
 
 
-def examineAllMatrices(allConfusionMatrices):
+def examineAllMatrices(allConfusionMatrices, confusionMatriceWithoutACP):
 	fig = plt.figure()
 	axes = []
 	
-	x = np.power(range(4, 28+1, 2), 2)
 
-	nbTotalReconnu = np.zeros(len(allConfusionMatrices))
-	nbTotal = np.zeros(len(allConfusionMatrices))
+	nbTotalReconnuSansACP = 0
+	nbTotalSansACP = 0
+	
+	nbTotalReconnuACP = np.zeros(len(allConfusionMatrices))
+	nbTotalACP = np.zeros(len(allConfusionMatrices))
+	
+	x = np.power(range(4, 28+1, 2), 2)
 	
 	for i in range(0,10):
+	
+		nbTotalReconnuSansACP += confusionMatriceWithoutACP[i]['nbFound']
+		nbTotalSansACP += confusionMatriceWithoutACP[i]['nbTotal']
+		
+		tauxReconnaissanceSansACP = 100 * confusionMatriceWithoutACP[i]['nbFound']/confusionMatriceWithoutACP[i]['nbTotal']
+		ysansACP = np.linspace(tauxReconnaissanceSansACP, tauxReconnaissanceSansACP, len(allConfusionMatrices))
+	
 		line = int(i/5)+2
 		row = i%5
 		
@@ -257,11 +268,11 @@ def examineAllMatrices(allConfusionMatrices):
 			tauxReconnaissance = 100 * allConfusionMatrices[j][i]['nbFound']/allConfusionMatrices[j][i]['nbTotal']
 			y.append(tauxReconnaissance)
 			
-			nbTotalReconnu[j] += allConfusionMatrices[j][i]['nbFound']
-			nbTotal[j] += allConfusionMatrices[j][i]['nbTotal']
+			nbTotalReconnuACP[j] += allConfusionMatrices[j][i]['nbFound']
+			nbTotalACP[j] += allConfusionMatrices[j][i]['nbTotal']
 		
 		axes.append(plt.subplot2grid((4, 5), (line, row)))
-		axes[i].plot(x, y, '.') 
+		axes[i].plot(x, y, '.', x, ysansACP, 'r') 
 		axes[i].set_title(convertLbl(i))
 		plt.ylim([0, 100])
 		
@@ -272,11 +283,14 @@ def examineAllMatrices(allConfusionMatrices):
 		'''
 	
 	#graphe taux de reconnaissance general
+	tauxReconnaissanceSansACP = 100 * nbTotalReconnuSansACP/nbTotalSansACP
+	ysansACP = np.linspace(tauxReconnaissanceSansACP, tauxReconnaissanceSansACP, len(allConfusionMatrices))
+	
 	for j in range(0, len(allConfusionMatrices)):
-		y[j] = 100 * nbTotalReconnu[j]/nbTotal[j]
+		y[j] = 100 * nbTotalReconnuACP[j]/nbTotalACP[j]
 		
 	axeGeneral = plt.subplot2grid((4, 5), (0, 0), colspan=3, rowspan = 2)
-	axeGeneral.plot(x, y, '.')
+	axeGeneral.plot(x, y, '.', x, ysansACP, 'r')
 	axeGeneral.set_title("Taux de reconnaissance general")
 	plt.ylim([0, 100])
 	for j in range(0, len(allConfusionMatrices)):
@@ -284,22 +298,27 @@ def examineAllMatrices(allConfusionMatrices):
 	
 	
 	#graphe taux de reconnaissance general sur temps de calcul
+	tauxReconnaissanceSansACP  /= confusionMatriceWithoutACP['TempsCalcul']
+	ysansACP = np.linspace(tauxReconnaissanceSansACP, tauxReconnaissanceSansACP, len(allConfusionMatrices))
+	
 	for j in range(0, len(allConfusionMatrices)):
 		y[j] /= allConfusionMatrices[j]['TempsCalcul']
 		
 	axeGeneral = plt.subplot2grid((4, 5), (1, 3), colspan=2)
-	axeGeneral.plot(x, y, '.')
+	axeGeneral.plot(x, y, '.', x, ysansACP, 'r')
 	axeGeneral.set_title("Taux de reconnaissance general sur temps de calcul")
 	plt.ylim([0, 100])
 	for j in range(0, len(allConfusionMatrices)):
 			axeGeneral.annotate( "{:.2f}".format(y[j]), (x[j],y[j]) , xycoords='data')
 	
 	#graphe temps de calcul
+	ysansACP = np.linspace(confusionMatriceWithoutACP['TempsCalcul'], confusionMatriceWithoutACP['TempsCalcul'], len(allConfusionMatrices))
+	
 	for j in range(0, len(allConfusionMatrices)):
 		y[j] = allConfusionMatrices[j]['TempsCalcul']
 		
 	axeGeneral = plt.subplot2grid((4, 5), (0, 3), colspan=2)
-	axeGeneral.plot(x, y, '.')
+	axeGeneral.plot(x, y, '.', x, ysansACP, 'r')
 	axeGeneral.set_title("Temps de calcul")
 	for j in range(0, len(allConfusionMatrices)):
 			axeGeneral.annotate( "{:.2f}".format(y[j]), (x[j],y[j]) , xycoords='data')
