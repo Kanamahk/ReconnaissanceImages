@@ -202,7 +202,7 @@ Ce vetement est effectivement un Coat.
 Je pense que ce vetement est un Pullover.
 Ce vetement etait en fait un Coat.
 
-Je pense que ce vetement est un Shirt.
+Je pense que ce vetement est un T-shirt/top.
 Ce vetement etait en fait un Bag.
 
 Je pense que ce vetement est un Coat.
@@ -1465,8 +1465,8 @@ Ce vetement est effectivement un T-shirt/top.
 Je pense que ce vetement est un Ankle boot.
 Ce vetement est effectivement un Ankle boot.
 
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
+Je pense que ce vetement est un Pullover.
+Ce vetement etait en fait un Coat.
 
 Je pense que ce vetement est un Shirt.
 Ce vetement est effectivement un Shirt.
@@ -1615,8 +1615,8 @@ Ce vetement est effectivement un Dress.
 Je pense que ce vetement est un Bag.
 Ce vetement est effectivement un Bag.
 
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un T-shirt/top.
 
 Je pense que ce vetement est un Dress.
 Ce vetement est effectivement un Dress.
@@ -1798,8 +1798,8 @@ Ce vetement est effectivement un Trouser.
 Je pense que ce vetement est un Bag.
 Ce vetement est effectivement un Bag.
 
-Je pense que ce vetement est un Shirt.
-Ce vetement est effectivement un Shirt.
+Je pense que ce vetement est un Bag.
+Ce vetement etait en fait un Shirt.
 
 Je pense que ce vetement est un Sandal.
 Ce vetement est effectivement un Sandal.
@@ -2401,8 +2401,8 @@ Ce vetement est effectivement un Coat.
 Je pense que ce vetement est un Dress.
 Ce vetement est effectivement un Dress.
 
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
+Je pense que ce vetement est un Pullover.
+Ce vetement etait en fait un Bag.
 
 Je pense que ce vetement est un Trouser.
 Ce vetement est effectivement un Trouser.
@@ -2416,8 +2416,8 @@ Ce vetement est effectivement un Dress.
 Je pense que ce vetement est un Dress.
 Ce vetement etait en fait un Shirt.
 
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un T-shirt/top.
 
 Je pense que ce vetement est un T-shirt/top.
 Ce vetement etait en fait un Shirt.
@@ -2512,8 +2512,8 @@ Ce vetement est effectivement un Sneaker.
 Je pense que ce vetement est un Sandal.
 Ce vetement etait en fait un Shirt.
 
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Pullover.
 
 Je pense que ce vetement est un Coat.
 Ce vetement etait en fait un Pullover.
@@ -3253,8 +3253,8 @@ Ce vetement etait en fait un Coat.
 Je pense que ce vetement est un Dress.
 Ce vetement est effectivement un Dress.
 
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un T-shirt/top.
 
 Je pense que ce vetement est un Bag.
 Ce vetement est effectivement un Bag.
@@ -3448,7 +3448,7 @@ Ce vetement est effectivement un Sneaker.
 Je pense que ce vetement est un Trouser.
 Ce vetement est effectivement un Trouser.
 
-Je pense que ce vetement est un Sandal.
+Je pense que ce vetement est un Shirt.
 Ce vetement etait en fait un Coat.
 
 Je pense que ce vetement est un Bag.
@@ -3595,8 +3595,8 @@ Ce vetement est effectivement un Dress.
 Je pense que ce vetement est un Coat.
 Ce vetement est effectivement un Coat.
 
-Je pense que ce vetement est un Pullover.
-Ce vetement etait en fait un Shirt.
+Je pense que ce vetement est un Shirt.
+Ce vetement est effectivement un Shirt.
 
 Je pense que ce vetement est un Coat.
 Ce vetement etait en fait un Shirt.
@@ -3781,8 +3781,8 @@ Ce vetement est effectivement un Trouser.
 Je pense que ce vetement est un Dress.
 Ce vetement est effectivement un Dress.
 
-Je pense que ce vetement est un Dress.
-Ce vetement etait en fait un Trouser.
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
 
 Je pense que ce vetement est un Coat.
 Ce vetement est effectivement un Coat.
@@ -5401,8 +5401,8 @@ Ce vetement est effectivement un Sandal.
 Je pense que ce vetement est un Sneaker.
 Ce vetement est effectivement un Sneaker.
 
-Je pense que ce vetement est un Pullover.
-Ce vetement etait en fait un Shirt.
+Je pense que ce vetement est un Shirt.
+Ce vetement est effectivement un Shirt.
 
 Je pense que ce vetement est un Sandal.
 Ce vetement est effectivement un Sandal.
@@ -5476,8 +5476,8 @@ Ce vetement est effectivement un Trouser.
 Je pense que ce vetement est un Pullover.
 Ce vetement etait en fait un Shirt.
 
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Pullover.
 
 Je pense que ce vetement est un Ankle boot.
 Ce vetement est effectivement un Ankle boot.
@@ -6076,7 +6076,7 @@ Ce vetement etait en fait un Pullover.
 Je pense que ce vetement est un Sandal.
 Ce vetement etait en fait un Bag.
 
-Je pense que ce vetement est un T-shirt/top.
+Je pense que ce vetement est un Shirt.
 Ce vetement etait en fait un Dress.
 
 Je pense que ce vetement est un Trouser.
@@ -6448,7 +6448,7 @@ Ce vetement est effectivement un Trouser.
 Je pense que ce vetement est un Dress.
 Ce vetement est effectivement un Dress.
 
-Je pense que ce vetement est un Shirt.
+Je pense que ce vetement est un Sandal.
 Ce vetement etait en fait un Dress.
 
 Je pense que ce vetement est un Coat.
@@ -7402,8 +7402,8 @@ Ce vetement est effectivement un Sneaker.
 Je pense que ce vetement est un T-shirt/top.
 Ce vetement est effectivement un T-shirt/top.
 
-Je pense que ce vetement est un Shirt.
-Ce vetement est effectivement un Shirt.
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Shirt.
 
 Je pense que ce vetement est un Ankle boot.
 Ce vetement est effectivement un Ankle boot.
@@ -8587,8 +8587,8 @@ Ce vetement etait en fait un Shirt.
 Je pense que ce vetement est un Coat.
 Ce vetement etait en fait un Shirt.
 
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Dress.
 
 Je pense que ce vetement est un Ankle boot.
 Ce vetement est effectivement un Ankle boot.
@@ -8848,8 +8848,8 @@ Ce vetement est effectivement un Ankle boot.
 Je pense que ce vetement est un Ankle boot.
 Ce vetement est effectivement un Ankle boot.
 
-Je pense que ce vetement est un Coat.
-Ce vetement etait en fait un Shirt.
+Je pense que ce vetement est un Shirt.
+Ce vetement est effectivement un Shirt.
 
 Je pense que ce vetement est un Sandal.
 Ce vetement etait en fait un Sneaker.
@@ -8992,7 +8992,7 @@ Ce vetement est effectivement un Dress.
 Je pense que ce vetement est un Trouser.
 Ce vetement est effectivement un Trouser.
 
-Je pense que ce vetement est un Dress.
+Je pense que ce vetement est un Coat.
 Ce vetement etait en fait un Pullover.
 
 Je pense que ce vetement est un Bag.
@@ -9082,8 +9082,8 @@ Ce vetement etait en fait un Bag.
 Je pense que ce vetement est un Dress.
 Ce vetement est effectivement un Dress.
 
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Bag.
 
 Je pense que ce vetement est un T-shirt/top.
 Ce vetement est effectivement un T-shirt/top.
@@ -9484,7 +9484,7 @@ Ce vetement est effectivement un Ankle boot.
 Je pense que ce vetement est un Ankle boot.
 Ce vetement est effectivement un Ankle boot.
 
-Je pense que ce vetement est un Coat.
+Je pense que ce vetement est un Shirt.
 Ce vetement etait en fait un Pullover.
 
 Je pense que ce vetement est un T-shirt/top.
@@ -9493,8 +9493,8 @@ Ce vetement est effectivement un T-shirt/top.
 Je pense que ce vetement est un Pullover.
 Ce vetement est effectivement un Pullover.
 
-Je pense que ce vetement est un Trouser.
-Ce vetement etait en fait un Dress.
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
 
 Je pense que ce vetement est un T-shirt/top.
 Ce vetement etait en fait un Dress.
@@ -9622,8 +9622,8 @@ Ce vetement est effectivement un Ankle boot.
 Je pense que ce vetement est un Pullover.
 Ce vetement etait en fait un Coat.
 
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Bag.
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
 
 Je pense que ce vetement est un Sneaker.
 Ce vetement est effectivement un Sneaker.
@@ -10351,8 +10351,8 @@ Ce vetement est effectivement un Trouser.
 Je pense que ce vetement est un Bag.
 Ce vetement est effectivement un Bag.
 
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Pullover.
 
 Je pense que ce vetement est un Sneaker.
 Ce vetement est effectivement un Sneaker.
@@ -10396,8 +10396,8 @@ Ce vetement est effectivement un Trouser.
 Je pense que ce vetement est un Sneaker.
 Ce vetement est effectivement un Sneaker.
 
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Pullover.
 
 Je pense que ce vetement est un Sandal.
 Ce vetement est effectivement un Sandal.
@@ -11227,8 +11227,8 @@ Ce vetement est effectivement un Bag.
 Je pense que ce vetement est un Dress.
 Ce vetement est effectivement un Dress.
 
-Je pense que ce vetement est un Pullover.
-Ce vetement etait en fait un Bag.
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
 
 Je pense que ce vetement est un Coat.
 Ce vetement etait en fait un Shirt.
@@ -11785,7 +11785,7 @@ Ce vetement etait en fait un Sandal.
 Je pense que ce vetement est un Coat.
 Ce vetement etait en fait un Shirt.
 
-Je pense que ce vetement est un Shirt.
+Je pense que ce vetement est un T-shirt/top.
 Ce vetement etait en fait un Trouser.
 
 Je pense que ce vetement est un T-shirt/top.
@@ -12493,8 +12493,8 @@ Ce vetement est effectivement un Pullover.
 Je pense que ce vetement est un Trouser.
 Ce vetement est effectivement un Trouser.
 
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Sneaker.
 
 Je pense que ce vetement est un Dress.
 Ce vetement est effectivement un Dress.
@@ -12568,7 +12568,7 @@ Ce vetement est effectivement un Dress.
 Je pense que ce vetement est un Ankle boot.
 Ce vetement est effectivement un Ankle boot.
 
-Je pense que ce vetement est un T-shirt/top.
+Je pense que ce vetement est un Shirt.
 Ce vetement etait en fait un Coat.
 
 Je pense que ce vetement est un Trouser.
@@ -12598,8 +12598,8 @@ Ce vetement etait en fait un Coat.
 Je pense que ce vetement est un Ankle boot.
 Ce vetement etait en fait un Sneaker.
 
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Pullover.
 
 Je pense que ce vetement est un Coat.
 Ce vetement est effectivement un Coat.
@@ -13125,557 +13125,557 @@ Ce vetement est effectivement un T-shirt/top.
 
 Je pense que ce vetement est un Dress.
 Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Dress.
+Ce vetement etait en fait un T-shirt/top.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement est effectivement un Shirt.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Dress.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Sneaker.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Sneaker.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Bag.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Dress.
+Ce vetement etait en fait un Coat.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Trouser.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Dress.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Coat.
+Ce vetement est effectivement un Coat.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Bag.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Dress.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un T-shirt/top.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Coat.
+Ce vetement est effectivement un Coat.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Dress.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Dress.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Coat.
+Ce vetement est effectivement un Coat.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Dress.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Coat.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement est effectivement un Shirt.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Pullover.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un T-shirt/top.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement etait en fait un Sandal.
+
+Je pense que ce vetement est un Coat.
+Ce vetement est effectivement un Coat.
+
+Je pense que ce vetement est un Coat.
+Ce vetement est effectivement un Coat.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Coat.
+Ce vetement est effectivement un Coat.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement etait en fait un Dress.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un T-shirt/top.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Pullover.
+
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Bag.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Pullover.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Coat.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Bag.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement etait en fait un Coat.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Pullover.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Pullover.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement etait en fait un Sneaker.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement etait en fait un Sandal.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Pullover.
+
+Je pense que ce vetement est un Dress.
+Ce vetement etait en fait un T-shirt/top.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Coat.
+Ce vetement est effectivement un Coat.
+
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Dress.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement etait en fait un Sneaker.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Sneaker.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement etait en fait un Sandal.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Pullover.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Ankle boot.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement etait en fait un Coat.
+
+Je pense que ce vetement est un Coat.
+Ce vetement est effectivement un Coat.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Coat.
+Ce vetement est effectivement un Coat.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Bag.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement etait en fait un Coat.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement est effectivement un Shirt.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Pullover.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement etait en fait un T-shirt/top.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement etait en fait un Ankle boot.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement etait en fait un Bag.
 
 Je pense que ce vetement est un Sneaker.
 Ce vetement etait en fait un Ankle boot.
 
 Je pense que ce vetement est un T-shirt/top.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Dress.
-Ce vetement etait en fait un T-shirt/top.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement est effectivement un Shirt.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Dress.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Sneaker.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Sneaker.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement etait en fait un Bag.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Dress.
-Ce vetement etait en fait un Coat.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement etait en fait un Trouser.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Dress.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Coat.
-Ce vetement etait en fait un Bag.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Dress.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un T-shirt/top.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Dress.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Dress.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Dress.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Coat.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement est effectivement un Shirt.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Coat.
-Ce vetement etait en fait un Pullover.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un T-shirt/top.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement etait en fait un Sandal.
-
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
-
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement etait en fait un Dress.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un T-shirt/top.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Pullover.
-
-Je pense que ce vetement est un Coat.
-Ce vetement etait en fait un Bag.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Pullover.
-
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Bag.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement etait en fait un Coat.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Pullover.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Pullover.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement etait en fait un Sneaker.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement etait en fait un Sandal.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Pullover.
-
-Je pense que ce vetement est un Dress.
-Ce vetement etait en fait un T-shirt/top.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
-
-Je pense que ce vetement est un Coat.
-Ce vetement etait en fait un Dress.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement etait en fait un Sneaker.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Sneaker.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement etait en fait un Sandal.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Pullover.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Ankle boot.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement etait en fait un Coat.
-
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Bag.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement etait en fait un Coat.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement est effectivement un Shirt.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Coat.
-Ce vetement etait en fait un Pullover.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement etait en fait un T-shirt/top.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement etait en fait un Ankle boot.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Coat.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement etait en fait un Bag.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement etait en fait un Ankle boot.
-
-Je pense que ce vetement est un T-shirt/top.
 Ce vetement est effectivement un T-shirt/top.
 
 Je pense que ce vetement est un Dress.
@@ -14505,291 +14505,6 @@ Ce vetement est effectivement un Ankle boot.
 
 Je pense que ce vetement est un T-shirt/top.
 Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Ankle boot.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Coat.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Coat.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Coat.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Coat.
-
-Je pense que ce vetement est un Coat.
-Ce vetement etait en fait un Pullover.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Dress.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement est effectivement un Shirt.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Pullover.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement est effectivement un Shirt.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Ankle boot.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Bag.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement est effectivement un Shirt.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Coat.
-Ce vetement est effectivement un Coat.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement etait en fait un Sandal.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement etait en fait un Pullover.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Shirt.
-Ce vetement est effectivement un Shirt.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement etait en fait un Coat.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Coat.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un Dress.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Coat.
-Ce vetement etait en fait un Pullover.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement est effectivement un T-shirt/top.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement est effectivement un Sandal.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement etait en fait un Coat.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Trouser.
-Ce vetement est effectivement un Trouser.
-
-Je pense que ce vetement est un Dress.
-Ce vetement est effectivement un Dress.
-
-Je pense que ce vetement est un Coat.
-Ce vetement etait en fait un Pullover.
-
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement etait en fait un Shirt.
-
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
-
-Je pense que ce vetement est un Sandal.
-Ce vetement etait en fait un T-shirt/top.
-
-Je pense que ce vetement est un Sneaker.
-Ce vetement est effectivement un Sneaker.
-
-Je pense que ce vetement est un Bag.
-Ce vetement est effectivement un Bag.
 
 Je pense que ce vetement est un Sandal.
 Ce vetement etait en fait un Ankle boot.
@@ -14797,6 +14512,291 @@ Ce vetement etait en fait un Ankle boot.
 Je pense que ce vetement est un Dress.
 Ce vetement est effectivement un Dress.
 
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Coat.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Coat.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Coat.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Coat.
+
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Pullover.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Dress.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement est effectivement un Shirt.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Pullover.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement est effectivement un Shirt.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Coat.
+Ce vetement est effectivement un Coat.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Coat.
+Ce vetement est effectivement un Coat.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Ankle boot.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Bag.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement est effectivement un Shirt.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Coat.
+Ce vetement est effectivement un Coat.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement etait en fait un Sandal.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Pullover.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement est effectivement un Shirt.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Shirt.
+Ce vetement etait en fait un Coat.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Dress.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Pullover.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement est effectivement un T-shirt/top.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Ankle boot.
+Ce vetement est effectivement un Ankle boot.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement est effectivement un Sandal.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement etait en fait un Coat.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Trouser.
+Ce vetement est effectivement un Trouser.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
+Je pense que ce vetement est un Coat.
+Ce vetement etait en fait un Pullover.
+
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Shirt.
+
+Je pense que ce vetement est un Pullover.
+Ce vetement est effectivement un Pullover.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un T-shirt/top.
+
+Je pense que ce vetement est un Sneaker.
+Ce vetement est effectivement un Sneaker.
+
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
+
+Je pense que ce vetement est un Sandal.
+Ce vetement etait en fait un Ankle boot.
+
+Je pense que ce vetement est un Dress.
+Ce vetement est effectivement un Dress.
+
 Je pense que ce vetement est un Sandal.
 Ce vetement etait en fait un Pullover.
 
@@ -14999,57 +14999,57 @@ Je pense que ce vetement est un Sandal.
 Ce vetement etait en fait un Ankle boot.
 
 
-J'ai reconnu 369 T-shirt/top sur 507 (72.7810650887574%).
+J'ai reconnu 366 T-shirt/top sur 507 (72.18934911242603%).
 J'ai confondu 0 Trouser pour des T-shirt/top.
 J'ai confondu 9 Pullover pour des T-shirt/top.
 J'ai confondu 47 Dress pour des T-shirt/top.
 J'ai confondu 3 Coat pour des T-shirt/top.
 J'ai confondu 39 Sandal pour des T-shirt/top.
-J'ai confondu 33 Shirt pour des T-shirt/top.
+J'ai confondu 36 Shirt pour des T-shirt/top.
 J'ai confondu 1 Sneaker pour des T-shirt/top.
 J'ai confondu 6 Bag pour des T-shirt/top.
 J'ai confondu 0 Ankle boot pour des T-shirt/top.
 
-J'ai reconnu 428 Trouser sur 481 (88.98128898128898%).
-J'ai confondu 12 T-shirt/top pour des Trouser.
+J'ai reconnu 429 Trouser sur 481 (89.1891891891892%).
+J'ai confondu 13 T-shirt/top pour des Trouser.
 J'ai confondu 6 Pullover pour des Trouser.
-J'ai confondu 27 Dress pour des Trouser.
+J'ai confondu 26 Dress pour des Trouser.
 J'ai confondu 0 Coat pour des Trouser.
 J'ai confondu 3 Sandal pour des Trouser.
-J'ai confondu 5 Shirt pour des Trouser.
+J'ai confondu 4 Shirt pour des Trouser.
 J'ai confondu 0 Sneaker pour des Trouser.
 J'ai confondu 0 Bag pour des Trouser.
 J'ai confondu 0 Ankle boot pour des Trouser.
 
-J'ai reconnu 287 Pullover sur 521 (55.08637236084453%).
+J'ai reconnu 282 Pullover sur 521 (54.12667946257198%).
 J'ai confondu 8 T-shirt/top pour des Pullover.
 J'ai confondu 0 Trouser pour des Pullover.
-J'ai confondu 5 Dress pour des Pullover.
-J'ai confondu 83 Coat pour des Pullover.
+J'ai confondu 4 Dress pour des Pullover.
+J'ai confondu 86 Coat pour des Pullover.
 J'ai confondu 43 Sandal pour des Pullover.
-J'ai confondu 92 Shirt pour des Pullover.
+J'ai confondu 95 Shirt pour des Pullover.
 J'ai confondu 0 Sneaker pour des Pullover.
 J'ai confondu 3 Bag pour des Pullover.
 J'ai confondu 0 Ankle boot pour des Pullover.
 
 J'ai reconnu 386 Dress sur 500 (77.2%).
 J'ai confondu 28 T-shirt/top pour des Dress.
-J'ai confondu 12 Trouser pour des Dress.
+J'ai confondu 11 Trouser pour des Dress.
 J'ai confondu 0 Pullover pour des Dress.
 J'ai confondu 19 Coat pour des Dress.
-J'ai confondu 30 Sandal pour des Dress.
+J'ai confondu 31 Sandal pour des Dress.
 J'ai confondu 21 Shirt pour des Dress.
 J'ai confondu 0 Sneaker pour des Dress.
 J'ai confondu 4 Bag pour des Dress.
 J'ai confondu 0 Ankle boot pour des Dress.
 
-J'ai reconnu 314 Coat sur 521 (60.268714011516316%).
-J'ai confondu 4 T-shirt/top pour des Coat.
+J'ai reconnu 312 Coat sur 521 (59.88483685220729%).
+J'ai confondu 3 T-shirt/top pour des Coat.
 J'ai confondu 3 Trouser pour des Coat.
 J'ai confondu 91 Pullover pour des Coat.
 J'ai confondu 31 Dress pour des Coat.
-J'ai confondu 27 Sandal pour des Coat.
-J'ai confondu 48 Shirt pour des Coat.
+J'ai confondu 26 Sandal pour des Coat.
+J'ai confondu 52 Shirt pour des Coat.
 J'ai confondu 0 Sneaker pour des Coat.
 J'ai confondu 3 Bag pour des Coat.
 J'ai confondu 0 Ankle boot pour des Coat.
@@ -15065,40 +15065,40 @@ J'ai confondu 64 Sneaker pour des Sandal.
 J'ai confondu 1 Bag pour des Sandal.
 J'ai confondu 31 Ankle boot pour des Sandal.
 
-J'ai reconnu 149 Shirt sur 482 (30.91286307053942%).
+J'ai reconnu 150 Shirt sur 482 (31.12033195020747%).
 J'ai confondu 102 T-shirt/top pour des Shirt.
 J'ai confondu 1 Trouser pour des Shirt.
-J'ai confondu 57 Pullover pour des Shirt.
+J'ai confondu 55 Pullover pour des Shirt.
 J'ai confondu 21 Dress pour des Shirt.
 J'ai confondu 83 Coat pour des Shirt.
 J'ai confondu 57 Sandal pour des Shirt.
 J'ai confondu 0 Sneaker pour des Shirt.
-J'ai confondu 12 Bag pour des Shirt.
+J'ai confondu 13 Bag pour des Shirt.
 J'ai confondu 0 Ankle boot pour des Shirt.
 
-J'ai reconnu 413 Sneaker sur 500 (82.6%).
+J'ai reconnu 412 Sneaker sur 500 (82.4%).
 J'ai confondu 0 T-shirt/top pour des Sneaker.
 J'ai confondu 0 Trouser pour des Sneaker.
 J'ai confondu 0 Pullover pour des Sneaker.
 J'ai confondu 0 Dress pour des Sneaker.
 J'ai confondu 0 Coat pour des Sneaker.
-J'ai confondu 47 Sandal pour des Sneaker.
+J'ai confondu 48 Sandal pour des Sneaker.
 J'ai confondu 0 Shirt pour des Sneaker.
 J'ai confondu 0 Bag pour des Sneaker.
 J'ai confondu 40 Ankle boot pour des Sneaker.
 
 J'ai reconnu 371 Bag sur 526 (70.53231939163499%).
-J'ai confondu 9 T-shirt/top pour des Bag.
+J'ai confondu 10 T-shirt/top pour des Bag.
 J'ai confondu 1 Trouser pour des Bag.
 J'ai confondu 16 Pullover pour des Bag.
 J'ai confondu 16 Dress pour des Bag.
 J'ai confondu 8 Coat pour des Bag.
-J'ai confondu 50 Sandal pour des Bag.
+J'ai confondu 49 Sandal pour des Bag.
 J'ai confondu 32 Shirt pour des Bag.
 J'ai confondu 20 Sneaker pour des Bag.
 J'ai confondu 3 Ankle boot pour des Bag.
 
-J'ai reconnu 423 Ankle boot sur 477 (88.67924528301887%).
+J'ai reconnu 424 Ankle boot sur 477 (88.88888888888889%).
 J'ai confondu 1 T-shirt/top pour des Ankle boot.
 J'ai confondu 0 Trouser pour des Ankle boot.
 J'ai confondu 1 Pullover pour des Ankle boot.
@@ -15106,7 +15106,7 @@ J'ai confondu 0 Dress pour des Ankle boot.
 J'ai confondu 1 Coat pour des Ankle boot.
 J'ai confondu 22 Sandal pour des Ankle boot.
 J'ai confondu 4 Shirt pour des Ankle boot.
-J'ai confondu 25 Sneaker pour des Ankle boot.
+J'ai confondu 24 Sneaker pour des Ankle boot.
 J'ai confondu 0 Bag pour des Ankle boot.
 
-J'ai reconnu 3527 vetements sur 5000 (70.54%).
+J'ai reconnu 3519 vetements sur 5000 (70.38%) en 8.246732934399525 secondes.

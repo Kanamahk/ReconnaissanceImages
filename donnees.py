@@ -1,7 +1,8 @@
 #-*-coding:utf-8-*-
 
 import numpy as np
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
+import timeit
 
 
 def getJustImages(data):
@@ -183,9 +184,10 @@ def makeAGuess(data, averageImages, string, Dict):
 	#print()
 	return (res, string)
 
-def makeAllGuess(datas, averageImages, name):
+def makeAllGuess(datas, averageImages, name, tempsPreparation):
 	nbReconnu = 0
-	CofusionMatrice =  {0 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
+	CofusionMatrice =  {'TempsCalcul' : tempsPreparation,
+						0 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
 						1 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
 						2 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
 						3 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
@@ -198,22 +200,35 @@ def makeAllGuess(datas, averageImages, name):
 	
 	res = (0, "")
 
+	
+	start_time = timeit.default_timer()
+	
 	for i in range(0, len(datas[0])):
 		res = makeAGuess((datas[0][i], datas[1][i]), averageImages, res[1], CofusionMatrice)
 		nbReconnu += res[0]
-
+	
+	CofusionMatrice['TempsCalcul'] += timeit.default_timer() - start_time
+	
 	string = res[1]
 
-	for i in range(0, len(CofusionMatrice)):
+	for i in range(0, len(CofusionMatrice)-1):
 		string = string + '\nJ\'ai reconnu ' + str(CofusionMatrice[i]['nbFound']) + ' ' + convertLbl(i) +  ' sur ' + str(CofusionMatrice[i]['nbTotal']) + ' (' + str(100 * CofusionMatrice[i]['nbFound']/CofusionMatrice[i]['nbTotal']) + '%).\n'
-		for j in range(0, len(CofusionMatrice)):
+		for j in range(0, len(CofusionMatrice)-1):
 			if(i != j):
 				string = string + 'J\'ai confondu ' + str(CofusionMatrice[i][j]) + ' ' + convertLbl(j) + ' pour des ' + convertLbl(i) + '.\n'
 		
 
 	#print('\nJ\'ai reconnu ' + str(nbReconnu) + ' vetements sur ' + str(len(datas)) + ' (' + str(100 * nbReconnu/len(datas)) + '%).')
-	string = string + '\nJ\'ai reconnu ' + str(nbReconnu) + ' vetements sur ' + str(len(datas[0])) + ' (' + str(100 * nbReconnu/len(datas[0])) + '%).'
-	write_in_file(string, "res" + name +".txt")
+	string = string + '\nJ\'ai reconnu ' + str(nbReconnu) + ' vetements sur ' + str(len(datas[0])) + ' (' + str(100 * nbReconnu/len(datas[0])) + '%) en ' + str(CofusionMatrice['TempsCalcul']) + ' secondes.'
+	write_in_file(string, "resultats" + name +".txt")
+	
+	MatriceToString = ''
+	for i in range(0, 10):
+		for j in range(0, 10):
+			MatriceToString = MatriceToString + str(CofusionMatrice[i][j]) + '\t'
+		MatriceToString = MatriceToString + '\n'	
+	write_in_file(MatriceToString, "matrice" + name +".txt")
+	
 	return CofusionMatrice
 
 		
@@ -256,15 +271,39 @@ def examineAllMatrices(allConfusionMatrices):
 			axes[i].annotate( "{:.2f}".format(y[j]), (x[j],y[j]) , xycoords='data')
 		'''
 	
+	#graphe taux de reconnaissance general
 	for j in range(0, len(allConfusionMatrices)):
 		y[j] = 100 * nbTotalReconnu[j]/nbTotal[j]
 		
-	axeGeneral = plt.subplot2grid((4, 5), (0, 0), colspan=5, rowspan = 2)
+	axeGeneral = plt.subplot2grid((4, 5), (0, 0), colspan=3, rowspan = 2)
 	axeGeneral.plot(x, y, '.')
-	axeGeneral.set_title("Scores total")
+	axeGeneral.set_title("Taux de reconnaissance general")
 	plt.ylim([0, 100])
 	for j in range(0, len(allConfusionMatrices)):
 			axeGeneral.annotate( "{:.2f}".format(y[j]), (x[j],y[j]) , xycoords='data')
+	
+	
+	#graphe taux de reconnaissance general sur temps de calcul
+	for j in range(0, len(allConfusionMatrices)):
+		y[j] /= allConfusionMatrices[j]['TempsCalcul']
+		
+	axeGeneral = plt.subplot2grid((4, 5), (1, 3), colspan=2)
+	axeGeneral.plot(x, y, '.')
+	axeGeneral.set_title("Taux de reconnaissance general sur temps de calcul")
+	plt.ylim([0, 100])
+	for j in range(0, len(allConfusionMatrices)):
+			axeGeneral.annotate( "{:.2f}".format(y[j]), (x[j],y[j]) , xycoords='data')
+	
+	#graphe temps de calcul
+	for j in range(0, len(allConfusionMatrices)):
+		y[j] = allConfusionMatrices[j]['TempsCalcul']
+		
+	axeGeneral = plt.subplot2grid((4, 5), (0, 3), colspan=2)
+	axeGeneral.plot(x, y, '.')
+	axeGeneral.set_title("Temps de calcul")
+	for j in range(0, len(allConfusionMatrices)):
+			axeGeneral.annotate( "{:.2f}".format(y[j]), (x[j],y[j]) , xycoords='data')
+	
 	
 	plt.subplots_adjust(left=None, bottom=None, right=None, top=None, wspace=None, hspace=0.5)
 	plt.show()
