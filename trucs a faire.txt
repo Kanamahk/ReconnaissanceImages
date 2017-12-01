@@ -1,0 +1,8 @@
+trucs a faire: 
+
+	implementer 3eme truc
+
+	rajouter barre de chargement et indice de ce qu'il se passe en general
+	
+	sauvegarde dans fichiers des matrices
+	

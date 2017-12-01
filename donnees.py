@@ -127,18 +127,18 @@ def createAverageImages(Dict):
 	return res
 
 
-def afficheAverageImages(Dict):
+def afficheAverageImages(Dict, size):
 	fig, axes = plt.subplots(nrows=2, ncols=5)
 	fig.tight_layout()
+	sqrtSize = int(np.sqrt(size))
 	for i in range(0, 10):
 		line = int(i/5)
 		row = i%5
-		img = Dict[i].reshape(28,28)
+		img = Dict[i].reshape(sqrtSize,sqrtSize)
 		axes[line, row].imshow(img, plt.cm.gray)
 		axes[line, row].set_title(convertLbl(i))
 
 	plt.show()
-
 
 
 def calcDifference(image, averageImage):
@@ -168,13 +168,13 @@ def makeAGuess(data, averageImages, string, Dict):
 
 	if difs[0] == data[1]:
 		#print('Ce vetement est effectivement un ' + convertLbl(difs[0]) + '.')
-		string = string + 'Ce vetement est effectivement un ' + convertLbl(difs[0]) + '.\n'
+		string = string + 'Ce vetement est effectivement un ' + convertLbl(difs[0]) + '.\n\n'
 		
 		Dict[difs[0]]['nbFound'] += 1
 		res = 1
 	else:
 		#print('Ce vetement etait en fait un ' + convertLbl(data[1]) + '.')
-		string = string + 'Ce vetement etait en fait un ' + convertLbl(data[1]) + '.\n'
+		string = string + 'Ce vetement etait en fait un ' + convertLbl(data[1]) + '.\n\n'
 		res = 0
 
 	Dict[data[1]]['nbTotal'] += 1
@@ -183,7 +183,7 @@ def makeAGuess(data, averageImages, string, Dict):
 	#print()
 	return (res, string)
 
-def makeAllGuess(datas, averageImages):
+def makeAllGuess(datas, averageImages, name):
 	nbReconnu = 0
 	CofusionMatrice =  {0 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
 						1 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
@@ -213,24 +213,62 @@ def makeAllGuess(datas, averageImages):
 
 	#print('\nJ\'ai reconnu ' + str(nbReconnu) + ' vetements sur ' + str(len(datas)) + ' (' + str(100 * nbReconnu/len(datas)) + '%).')
 	string = string + '\nJ\'ai reconnu ' + str(nbReconnu) + ' vetements sur ' + str(len(datas[0])) + ' (' + str(100 * nbReconnu/len(datas[0])) + '%).'
-	write_in_file(string, "res.txt")
-	
+	write_in_file(string, "res" + name +".txt")
+	return CofusionMatrice
 
 		
-	
-	
-
-
 def write_in_file(string, fileName):
 	file_pointer = open(fileName, "w")
 	file_pointer.write(string)
 	file_pointer.close()
 
 
+def examineAllMatrices(allConfusionMatrices):
+	fig = plt.figure()
+	axes = []
+	
+	x = np.power(range(4, 28+1, 2), 2)
 
-
-
-
+	nbTotalReconnu = np.zeros(len(allConfusionMatrices))
+	nbTotal = np.zeros(len(allConfusionMatrices))
+	
+	for i in range(0,10):
+		line = int(i/5)+2
+		row = i%5
+		
+		y = []
+		
+		for j in range(0, len(allConfusionMatrices)):
+			tauxReconnaissance = 100 * allConfusionMatrices[j][i]['nbFound']/allConfusionMatrices[j][i]['nbTotal']
+			y.append(tauxReconnaissance)
+			
+			nbTotalReconnu[j] += allConfusionMatrices[j][i]['nbFound']
+			nbTotal[j] += allConfusionMatrices[j][i]['nbTotal']
+		
+		axes.append(plt.subplot2grid((4, 5), (line, row)))
+		axes[i].plot(x, y, '.') 
+		axes[i].set_title(convertLbl(i))
+		plt.ylim([0, 100])
+		
+		#on ne voit rien du tout!!!!!!!!!
+		'''
+		for j in range(0, len(allConfusionMatrices)):
+			axes[i].annotate( "{:.2f}".format(y[j]), (x[j],y[j]) , xycoords='data')
+		'''
+	
+	for j in range(0, len(allConfusionMatrices)):
+		y[j] = 100 * nbTotalReconnu[j]/nbTotal[j]
+		
+	axeGeneral = plt.subplot2grid((4, 5), (0, 0), colspan=5, rowspan = 2)
+	axeGeneral.plot(x, y, '.')
+	axeGeneral.set_title("Scores total")
+	plt.ylim([0, 100])
+	for j in range(0, len(allConfusionMatrices)):
+			axeGeneral.annotate( "{:.2f}".format(y[j]), (x[j],y[j]) , xycoords='data')
+	
+	plt.subplots_adjust(left=None, bottom=None, right=None, top=None, wspace=None, hspace=0.5)
+	plt.show()
+	return
 
 
 
