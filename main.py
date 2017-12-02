@@ -17,6 +17,8 @@ print("Recupération des données d'entrainement terminé.\nRecupération des do
 donnesAReconnaitre = lectureDonnneesTuple("test")
 print("Recupération des données d'evaluation terminé.\n")
 
+
+'''
 print("*************************************************************************")
 print("Classifieur à distance minimum sans ACP.")
 start_time = timeit.default_timer()
@@ -62,14 +64,38 @@ for i in range(4, 28+1, 2):
 	tempsPreparation = timeit.default_timer() - start_time
 	
 	print("Commencement de la reconnaissance.")
-	allConfusionMatrices.append(makeAllGuess(donnesAReconnaitreTransforme, averageImagesDict, 'ACP' + str(i*i), tempsPreparation))
+	allConfusionMatrices.append(makeAllGuessDMIN(donnesAReconnaitreTransforme, averageImagesDict, 'ACP' + str(i*i), tempsPreparation))
 	print("Reconnaissance terminé. Deux fichiers contenant les résultats et la matrice de confusion ont été créé.\n")
+'''
 
+'''
+print("*************************************************************************")
+print("Classifieur LinearSVM.")
+print("Commencement de l'entrainement.")
+start_time = timeit.default_timer()
+lin_clf = svm.LinearSVC()
+lin_clf.fit(donnees[0], donnees[1])
+tempsPreparation = timeit.default_timer() - start_time
+print("Entrainement terminé.")
+confusionMatriceLSVM = makeAllGuessLSVM_NNC(lin_clf, donnesAReconnaitre, tempsPreparation, "LinearSVM")
+'''
+
+print("*************************************************************************")
+print("Classifieur plus proche voisin.")
+print("Commencement de l'entrainement.")
+start_time = timeit.default_timer()
+clf =  neighbors.KNeighborsClassifier()
+clf.fit(donnees[0], donnees[1])
+tempsPreparation = timeit.default_timer() - start_time
+print("Entrainement terminé.")
+confusionMatriceNNC = makeAllGuessLSVM_NNC(clf, donnesAReconnaitre, tempsPreparation, "NNC")
+
+'''
 print("*************************************************************************")
 print("Toutes les reconnaissances sont terminé : affichage des données sous forme de graphe.")
 	
 examineAllMatrices(allConfusionMatrices, confusionMatriceWithoutACP)
-
+'''
 #afiche les averageImage de chaque classe
 '''
 afficheAverageImages(averageImagesDict, len(averageImagesDict[0]))

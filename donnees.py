@@ -2,6 +2,8 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn import svm
+from sklearn import neighbors
 import timeit
 
 
@@ -162,7 +164,7 @@ def calcAllDifference(image, averageImages):
 		total += Liste[i]
 	return (plusPetit, Liste, total)
 
-def makeAGuess(data, averageImages, string, Dict):
+def makeAGuessDMIN(data, averageImages, string, Dict):
 	difs = calcAllDifference(data[0], averageImages)
 	#print('Je pense que ce vetement est un ' + convertLbl(difs[0]) + '.')
 	string = string + 'Je pense que ce vetement est un ' + convertLbl(difs[0]) + '.\n'
@@ -184,9 +186,9 @@ def makeAGuess(data, averageImages, string, Dict):
 	#print()
 	return (res, string)
 
-def makeAllGuess(datas, averageImages, name, tempsPreparation):
+def makeAllGuessDMIN(datas, averageImages, name, tempsPreparation):
 	nbReconnu = 0
-	CofusionMatrice =  {'TempsCalcul' : tempsPreparation,
+	ConfusionMatrice =  {'TempsCalcul' : tempsPreparation,
 						0 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
 						1 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
 						2 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
@@ -204,33 +206,100 @@ def makeAllGuess(datas, averageImages, name, tempsPreparation):
 	start_time = timeit.default_timer()
 	
 	for i in range(0, len(datas[0])):
-		res = makeAGuess((datas[0][i], datas[1][i]), averageImages, res[1], CofusionMatrice)
+		res = makeAGuessDMIN((datas[0][i], datas[1][i]), averageImages, res[1], ConfusionMatrice)
 		nbReconnu += res[0]
 	
-	CofusionMatrice['TempsCalcul'] += timeit.default_timer() - start_time
+	ConfusionMatrice['TempsCalcul'] += timeit.default_timer() - start_time
 	
 	string = res[1]
 
-	for i in range(0, len(CofusionMatrice)-1):
-		string = string + '\nJ\'ai reconnu ' + str(CofusionMatrice[i]['nbFound']) + ' ' + convertLbl(i) +  ' sur ' + str(CofusionMatrice[i]['nbTotal']) + ' (' + str(100 * CofusionMatrice[i]['nbFound']/CofusionMatrice[i]['nbTotal']) + '%).\n'
-		for j in range(0, len(CofusionMatrice)-1):
+	for i in range(0, len(ConfusionMatrice)-1):
+		string = string + '\nJ\'ai reconnu ' + str(ConfusionMatrice[i]['nbFound']) + ' ' + convertLbl(i) +  ' sur ' + str(ConfusionMatrice[i]['nbTotal']) + ' (' + str(100 * ConfusionMatrice[i]['nbFound']/ConfusionMatrice[i]['nbTotal']) + '%).\n'
+		for j in range(0, len(ConfusionMatrice)-1):
 			if(i != j):
-				string = string + 'J\'ai confondu ' + str(CofusionMatrice[i][j]) + ' ' + convertLbl(j) + ' pour des ' + convertLbl(i) + '.\n'
+				string = string + 'J\'ai confondu ' + str(ConfusionMatrice[i][j]) + ' ' + convertLbl(j) + ' pour des ' + convertLbl(i) + '.\n'
 		
 
 	#print('\nJ\'ai reconnu ' + str(nbReconnu) + ' vetements sur ' + str(len(datas)) + ' (' + str(100 * nbReconnu/len(datas)) + '%).')
-	string = string + '\nJ\'ai reconnu ' + str(nbReconnu) + ' vetements sur ' + str(len(datas[0])) + ' (' + str(100 * nbReconnu/len(datas[0])) + '%) en ' + str(CofusionMatrice['TempsCalcul']) + ' secondes.'
+	string = string + '\nJ\'ai reconnu ' + str(nbReconnu) + ' vetements sur ' + str(len(datas[0])) + ' (' + str(100 * nbReconnu/len(datas[0])) + '%) en ' + str(ConfusionMatrice['TempsCalcul']) + ' secondes.'
 	write_in_file(string, "resultats" + name +".txt")
 	
 	MatriceToString = ''
 	for i in range(0, 10):
 		for j in range(0, 10):
-			MatriceToString = MatriceToString + str(CofusionMatrice[i][j]) + '\t'
+			MatriceToString = MatriceToString + str(ConfusionMatrice[i][j]) + '\t'
 		MatriceToString = MatriceToString + '\n'	
 	write_in_file(MatriceToString, "matrice" + name +".txt")
 	
-	return CofusionMatrice
+	return ConfusionMatrice
 
+	
+def makeAGuessLSVM_NNC(data, clf, string, Dict, classifieur):
+	#difs = calcAllDifference(data[0], averageImages)
+	prediction = clf.predict([data[0]])[0]
+
+	string = string + 'Le classifieur ' + classifieur + ' pense que ce vetement est un ' + convertLbl(prediction) + '.\n'
+
+	if prediction == data[1]:
+		string = string + 'Ce vetement est effectivement un ' + convertLbl(prediction) + '.\n\n'
+		
+		Dict[prediction]['nbFound'] += 1
+		res = 1
+	else:
+		string = string + 'Ce vetement etait en fait un ' + convertLbl(data[1]) + '.\n\n'
+		res = 0
+
+	Dict[data[1]]['nbTotal'] += 1
+	Dict[data[1]][prediction] += 1
+
+	return (res, string)	
+	
+def makeAllGuessLSVM_NNC(clf, datas, tempsPreparation, classifieur):
+	nbReconnu = 0
+	ConfusionMatrice =  {'TempsCalcul' : tempsPreparation,
+						0 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
+						1 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
+						2 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
+						3 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
+						4 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
+						5 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
+						6 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
+						7 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
+						8 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0},
+						9 : {'nbTotal' : 0, 'nbFound' : 0, 0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0}}
+	
+	res = (0, "")
+	
+	print("Commencement de la reconnaissance.")
+	start_time = timeit.default_timer()
+	for i in range(0, len(datas[0])):
+		res = makeAGuessLSVM_NNC((datas[0][i], datas[1][i]), clf, res[1], ConfusionMatrice, classifieur)
+		nbReconnu += res[0]
+	ConfusionMatrice['TempsCalcul'] += timeit.default_timer() - start_time
+	print("Reconnaissance terminé.")
+	
+	string = res[1]
+
+	for i in range(0, len(ConfusionMatrice)-1):
+		string = string + '\nLe classifieur ' + classifieur + ' a reconnu ' + str(ConfusionMatrice[i]['nbFound']) + ' ' + convertLbl(i) +  ' sur ' + str(ConfusionMatrice[i]['nbTotal']) + ' (' + str(100 * ConfusionMatrice[i]['nbFound']/ConfusionMatrice[i]['nbTotal']) + '%).\n'
+		for j in range(0, len(ConfusionMatrice)-1):
+			if(i != j):
+				string = string + 'Le classifieur ' + classifieur + ' a confondu ' + str(ConfusionMatrice[i][j]) + ' ' + convertLbl(j) + ' pour des ' + convertLbl(i) + '.\n'
+				string = string + 'Le classifieur ' + classifieur + ' a confondu ' + str(ConfusionMatrice[i][j]) + ' ' + convertLbl(j) + ' pour des ' + convertLbl(i) + '.\n'
+		
+	string = string + '\nJ\'ai reconnu ' + str(nbReconnu) + ' vetements sur ' + str(len(datas[0])) + ' (' + str(100 * nbReconnu/len(datas[0])) + '%) en ' + str(ConfusionMatrice['TempsCalcul']) + ' secondes.'
+	write_in_file(string, "resultats" + classifieur + ".txt")
+	
+	MatriceToString = ''
+	for i in range(0, 10):
+		for j in range(0, 10):
+			MatriceToString = MatriceToString + str(ConfusionMatrice[i][j]) + '\t'
+		MatriceToString = MatriceToString + '\n'	
+	write_in_file(MatriceToString, "matrice" + classifieur + ".txt")
+	
+	return ConfusionMatrice	
+	
+	
 		
 def write_in_file(string, fileName):
 	file_pointer = open(fileName, "w")

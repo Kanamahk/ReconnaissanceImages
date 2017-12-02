@@ -46,3 +46,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.pyc
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/.vs/ReconnaissanceImages/v15/.suo
+/__pycache__/donnees.cpython-36.pyc

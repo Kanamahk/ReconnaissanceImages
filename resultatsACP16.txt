@@ -3550,8 +3550,8 @@ Ce vetement etait en fait un Bag.
 Je pense que ce vetement est un Coat.
 Ce vetement etait en fait un Pullover.
 
-Je pense que ce vetement est un Pullover.
-Ce vetement est effectivement un Pullover.
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Pullover.
 
 Je pense que ce vetement est un T-shirt/top.
 Ce vetement etait en fait un Bag.
@@ -7153,8 +7153,8 @@ Ce vetement est effectivement un Coat.
 Je pense que ce vetement est un Shirt.
 Ce vetement etait en fait un Pullover.
 
-Je pense que ce vetement est un T-shirt/top.
-Ce vetement etait en fait un Bag.
+Je pense que ce vetement est un Bag.
+Ce vetement est effectivement un Bag.
 
 Je pense que ce vetement est un Sneaker.
 Ce vetement est effectivement un Sneaker.
@@ -7420,8 +7420,8 @@ Ce vetement etait en fait un Ankle boot.
 Je pense que ce vetement est un Dress.
 Ce vetement est effectivement un Dress.
 
-Je pense que ce vetement est un Ankle boot.
-Ce vetement est effectivement un Ankle boot.
+Je pense que ce vetement est un T-shirt/top.
+Ce vetement etait en fait un Ankle boot.
 
 Je pense que ce vetement est un T-shirt/top.
 Ce vetement est effectivement un T-shirt/top.
@@ -15021,8 +15021,8 @@ J'ai confondu 0 Sneaker pour des Trouser.
 J'ai confondu 0 Bag pour des Trouser.
 J'ai confondu 0 Ankle boot pour des Trouser.
 
-J'ai reconnu 172 Pullover sur 521 (33.01343570057582%).
-J'ai confondu 129 T-shirt/top pour des Pullover.
+J'ai reconnu 171 Pullover sur 521 (32.82149712092131%).
+J'ai confondu 130 T-shirt/top pour des Pullover.
 J'ai confondu 0 Trouser pour des Pullover.
 J'ai confondu 3 Dress pour des Pullover.
 J'ai confondu 80 Coat pour des Pullover.
@@ -15087,8 +15087,8 @@ J'ai confondu 0 Shirt pour des Sneaker.
 J'ai confondu 0 Bag pour des Sneaker.
 J'ai confondu 36 Ankle boot pour des Sneaker.
 
-J'ai reconnu 126 Bag sur 526 (23.954372623574145%).
-J'ai confondu 321 T-shirt/top pour des Bag.
+J'ai reconnu 127 Bag sur 526 (24.14448669201521%).
+J'ai confondu 320 T-shirt/top pour des Bag.
 J'ai confondu 0 Trouser pour des Bag.
 J'ai confondu 0 Pullover pour des Bag.
 J'ai confondu 4 Dress pour des Bag.
@@ -15098,8 +15098,8 @@ J'ai confondu 11 Shirt pour des Bag.
 J'ai confondu 16 Sneaker pour des Bag.
 J'ai confondu 2 Ankle boot pour des Bag.
 
-J'ai reconnu 336 Ankle boot sur 477 (70.44025157232704%).
-J'ai confondu 103 T-shirt/top pour des Ankle boot.
+J'ai reconnu 335 Ankle boot sur 477 (70.23060796645703%).
+J'ai confondu 104 T-shirt/top pour des Ankle boot.
 J'ai confondu 0 Trouser pour des Ankle boot.
 J'ai confondu 0 Pullover pour des Ankle boot.
 J'ai confondu 0 Dress pour des Ankle boot.
@@ -15109,4 +15109,4 @@ J'ai confondu 0 Shirt pour des Ankle boot.
 J'ai confondu 16 Sneaker pour des Ankle boot.
 J'ai confondu 0 Bag pour des Ankle boot.
 
-J'ai reconnu 2843 vetements sur 5000 (56.86%) en 1.206984146549111 secondes.
+J'ai reconnu 2842 vetements sur 5000 (56.84%) en 1.2432745599303416 secondes.

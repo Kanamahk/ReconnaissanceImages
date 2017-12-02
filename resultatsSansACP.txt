@@ -15109,4 +15109,4 @@ J'ai confondu 0 Shirt pour des Ankle boot.
 J'ai confondu 61 Sneaker pour des Ankle boot.
 J'ai confondu 0 Bag pour des Ankle boot.
 
-J'ai reconnu 3065 vetements sur 5000 (61.3%) en 29.506259958036495 secondes.
+J'ai reconnu 3065 vetements sur 5000 (61.3%) en 28.218986531144534 secondes.
